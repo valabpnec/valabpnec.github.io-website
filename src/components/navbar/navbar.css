@@ -62,7 +62,7 @@
     cursor: pointer;
 }
 
-.va__navbar-menu {
+ .va__navbar-menu {
     margin-left: 1rem;
     
     display: none;
@@ -90,7 +90,7 @@
     box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
 }
 
-.va__navbar-links_container p {
+.va__navbar-menu_container p {
     margin: 1rem 0;
 }
 
@@ -130,4 +130,4 @@
     .va__navbar-menu_container-links-sign{
         display: block;
     }
-}
+} 
