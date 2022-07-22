@@ -22,7 +22,7 @@
     height: 50.02px;
 }
 
-.va__navbar-links_container{
+.va__navbar-links_container {
     display: flex;
     flex-direction: row;
 }
@@ -31,4 +31,103 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.va__navbar-links_container p, 
+.va__navbar-sign p,
+.va__navbar-menu_container p{
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.va__navbar-sign button,
+.va__navbar-menu_container button{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.va__navbar-menu {
+    margin-left: 1rem;
+    
+    display: none;
+    position: relative;
+}
+
+.va__navbar-menu svg {
+    cursor: pointer;
+}
+
+.va__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.va__navbar-links_container p {
+    margin: 1rem 0;
+}
+
+.va__navbar-menu_container-links-sign {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .va__navbar-links_container {
+        display: none;
+    }    
+
+    .va__navbar-menu{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .va__navbar{
+        padding: 2rem 4rem;
+    }    
+}
+
+@media screen and (max-width: 550px) {
+    .va__navbar{
+        padding: 2rem;
+    }    
+
+    .va__navbar-sign{
+        display: none;
+    }
+
+    .va__navbar-menu_container{
+        top: 20px;
+    }
+
+    .va__navbar-menu_container-links-sign{
+        display: block;
+    }
 }
