@@ -8,9 +8,7 @@ const Header = () => {
         <div className="va__header section__padding " id="home">
             <div className="va__header-content">
                 <h1 className="gradient__text">Transforming Data. Advancing Vision. Providing Immersion.</h1>
-                <p>Video Analytics (VA) Lab aka Video Surveillance Lab at PNEC-NUST established in August 2016
-                 is focusing on providing indigenous and state-of-the-art Computer Vision- and Artificial Intelligence
-                 (AI)-based automated video content analysis solutions.</p>
+                <p>We aspire to develop intelligent algorithms that perform important visual perception tasks and support in development of immersive technology based solutions.</p>
 
                 {/* <div className="va__header-content__input" >
                     <input type="email" placeholder="Your email address" ></input>
