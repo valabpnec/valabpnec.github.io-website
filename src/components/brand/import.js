@@ -4,6 +4,7 @@ import dl from '../../assets/valab/deep-learning-signal.png';
 import iot from '../../assets/valab/smartphone.png';
 import cloud from '../../assets/valab/computer.png';
 import forensic from '../../assets/valab/spyware.png';
+import nlp from '../../assets/valab/natural-language-processing.png';
 
 export{
     vr,
@@ -11,5 +12,6 @@ export{
     dl,
     iot,
     cloud,
-    forensic
+    forensic,
+    nlp
 }

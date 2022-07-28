@@ -1,5 +1,5 @@
 import React from "react";
-import { vr, ai, dl, iot, cloud, forensic } from './import';
+import { vr, ai, dl, iot, cloud, forensic, nlp } from './import';
 import './brand.css';
 
 const Brand = () => {
@@ -14,11 +14,14 @@ const Brand = () => {
                     <img src={ai} alt="Artificial Intelligence (AI)"/>
                 </div>
                 <div>
-                    <img src={vr} alt="Augmented Reality - Virtual Reality"/>
-                </div>
-                <div>
                     <img src={dl} alt="Deep learning"/>
                 </div>
+                <div>
+                    <img src={nlp} alt="Natural Language Processing"/>
+                </div>
+                <div>
+                    <img src={vr} alt="Augmented Reality - Virtual Reality"/>
+                </div>                
                 <div>
                     <img src={cloud} alt="Cloud Computing"/>
                 </div>
