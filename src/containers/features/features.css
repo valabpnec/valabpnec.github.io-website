@@ -23,7 +23,7 @@
     font-family: var(--font-family);
 }
 
-.va__features-heading p {
+.va__features-heading a {
     color: var(--color-subtext);
     font-size: 16px;
     line-height: 30px;
@@ -53,7 +53,7 @@
 
 
 @media screen and (max-width: 550px) {
-    .va__features-heading h1 {
+    .vanpm __features-heading h1 {
         font-size: 28px;
         line-height: 38px;
     }

@@ -10,7 +10,7 @@ const WhatVA = () => {
             </div>
             <div className="va__whatva-heading">
                 <h1 className="gradient__text" >Actively developing solutions in emerging technology areas</h1>
-                <p>Explore more research areas</p>
+                <a href="#publication" >Explore our research publications</a> 
             </div>
             <div className="va__whatva-container">
                 <Feature title="Computer Vision" text="Computer vision is a field of Artificial Intelligence (AI) that trains computers to interpret and understand the visual world" />
