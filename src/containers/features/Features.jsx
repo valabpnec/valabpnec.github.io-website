@@ -51,14 +51,14 @@ const featuresData = [
         title: 'Miscellaneous',
         text: 'VR technology can also be used for training personnel for various medical situations such as CPR etc. Moreover, VR-based psychological therapy is also being effectively utilized'
     },
-]
+];
 
 const Features = () => {
     return(
-        <div className="va__features section__padding" id="features">
+        <div className="va__features section__padding" id="projects">
             <div className="va__features-heading">
-                <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
-                <a href="#contact">Contact Early to Employ our State-of-the-Art Services</a>
+                <h1 className="gradient__text">State-of-the-Art Research & Development Projects</h1>
+                <a href="#contact">Contact to Employ our Services</a>
             </div>
             <div className="va__features-container">
                 {featuresData.map((item, index) => (

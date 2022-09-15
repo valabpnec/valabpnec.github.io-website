@@ -4,15 +4,15 @@ import './whatVA.css';
 
 const WhatVA = () => {
     return(
-        <div className="va__whatva section__margin" id="wva">
-            <div className="va__whatva-feature">
+        <div className="va__whatva section__margin" >
+            <div className="va__whatva-feature" id="whatVALAB">
                 <Feature title="What is Video Analytics Lab?" text="Video Analytics (VA) Lab aka Video Surveillance Lab at PNEC-NUST established in August 2016 is focusing on providing indigenous and state-of-the-art Artificial Intelligence (AI) and Augmented Reality - Virtual Reality (AR-VR) based solutions. VA Lab is also a partner lab of National Center of Big Data and Cloud Computing (NCBC). The lab is headed by Dr. Rana Hammad Raza." />
             </div>
             <div className="va__whatva-heading">
                 <h1 className="gradient__text" >Actively developing solutions in emerging technology areas</h1>
                 <a href="#publication" >Explore our research publications</a> 
             </div>
-            <div className="va__whatva-container">
+            <div className="va__whatva-container" id="researchareas">
                 <Feature title="Computer Vision" text="Computer vision is a field of Artificial Intelligence (AI) that trains computers to interpret and understand the visual world" />
                 <Feature title="Natural Language Processing" text="It is the ability of computer program to interpret and understand human language as written and spoken" />
                 <Feature title="Deep Learning" text="Branch of Artificial Intelligence (AI) function that emulates the workings of the human brain in processing data and creating patterns for use in decision-making" />

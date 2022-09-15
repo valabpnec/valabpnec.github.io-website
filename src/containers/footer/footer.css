@@ -34,7 +34,7 @@
     cursor: pointer;
 }
 
-.va__footer-btn p {
+.va__footer-btn a {
     font-size: 18px;
     font-family: var(--font-family);
     line-height: 21px;
@@ -64,16 +64,39 @@
 }
 
 .va__footer-links_logo img {
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 200px;
 
     margin-bottom: 1rem;
 }
 
+.va__footer-links_logo h4 {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: var(--font-family);
+    color: #fff;
+
+    margin-bottom: 0.9rem;
+}
+
 .va__footer-links_logo p {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 15px;
+    color: #fff;
+}
+
+.va__footer-links_div address {
     font-family: var(--font-family);
     font-size: 12px;
-    line-height: 15px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.va__footer-links_div abbr {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 18px;
     color: #fff;
 }
 
@@ -102,18 +125,17 @@
     cursor: pointer;
 }
 
-.va__footer-copyright {
-    margin-top: 2rem;
-    text-align: center;
-    width: 100%;
+.va__footer-links_div a {
+    font-size: 12px;
+    line-height: 15px;
+    font-family: var(--font-family);
+    color: #fff;
+
+    margin: 0.5rem 0;
+    cursor: pointer;
 }
 
-.va__footer-copyright p {
-    font-size: 12px;
-    font-family: var(--font-family);
-    line-height: 15px;
-    color: #fff;
-}
+
 
 @media screen and (max-width: 850px) {
     .va__footer-heading h1 {

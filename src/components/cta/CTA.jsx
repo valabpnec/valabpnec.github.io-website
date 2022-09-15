@@ -3,13 +3,13 @@ import './cta.css';
 
 const CTA = () => {
     return(
-        <div className="va__cta">
+      <div className="va__cta" id="publication">
         <div className="va__cta-content">
-          <p>Request Early Access to Get Started</p>
-          <h3>Register Today & start exploring the endless possibilities.</h3>
+          <h1>Publications</h1>
+          <p>There is no better measure of VALab's impact than the research conducted here.</p>
         </div>
         <div className="va__cta-btn">
-          <button type="button">Get Started</button>
+          <button type="button">Explore our research</button>
         </div>
       </div>
     )

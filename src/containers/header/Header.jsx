@@ -1,6 +1,6 @@
 import React from "react";
-import va from "../../assets/valab/va_new.gif";
-import ai from "../../assets/gpt3/ai.png";
+import va from "../../assets/valab/ai8.gif";
+// import ai from "../../assets/gpt3/ai.png";
 import './header.css';
 
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
             </div>
 
             <div className="va__header-image" >
-                <img src={ai} ></img>
+                <img src={va} ></img>
             </div>
             
         </div>

@@ -12,7 +12,7 @@ const Article = ({ imgUrl, date, text }) => {
                 <p>{date}</p>
                 <h3>{text}</h3>
             </div>
-            <p>Read Full Article</p>
+            <a href="https://researchblog.nust.edu.pk/ground-breaking-research-at-our-flagship-video-analytics-va-lab/">Read Full Article</a>
             </div>
     </div>
     )

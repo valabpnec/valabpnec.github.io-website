@@ -11,13 +11,13 @@ const Blog = () => {
             </div>
             <div className="va__blog-container">
             <div className="va__blog-container_groupA">
-                <Article imgUrl={blog01} date="Sep 26, 2022" text="VA Lab and Open  AI is the future. Let us exlore how it is?" />
+                <Article imgUrl={blog01} date="May 06, 2021" text="State of the art research at our flagship Video Analytics Lab" />
             </div>
             <div className="va__blog-container_groupB">
-                <Article imgUrl={blog02} date="Sep 26, 2022" text="VA Lab and Open  AI is the future. Let us exlore how it is?" />
-                <Article imgUrl={blog03} date="Sep 26, 2022" text="VA Lab and Open  AI is the future. Let us exlore how it is?" />
-                <Article imgUrl={blog04} date="Sep 26, 2022" text="VA Lab and Open  AI is the future. Let us exlore how it is?" />
-                <Article imgUrl={blog05} date="Sep 26, 2022" text="VA Lab and Open  AI is the future. Let us exlore how it is?" />
+                <Article imgUrl={blog02} date="Sep 26, 2022" text="Advanced techniques in object classification (Upcoming)" />
+                <Article imgUrl={blog03} date="Oct 16, 2022" text="Real-time Activity Recognition (Upcoming)" />
+                <Article imgUrl={blog04} date="Nov 08, 2022" text="Cyber security and Artificial Intelligence (Upcoming)" />
+                <Article imgUrl={blog05} date="Dec 30, 2022" text="Marriage of AI and AR-VR for better experience (Upcoming)" />
             </div>
         </div>
     </div>

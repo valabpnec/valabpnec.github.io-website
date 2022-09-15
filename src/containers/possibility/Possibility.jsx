@@ -1,17 +1,16 @@
 import React from "react";
-import possibilityImage from '../../assets/valab/va_new.gif';
+import possibilityImage from '../../assets/valab/vr-team2.png';
 import './possibility.css';
 
 const Possibility = () => (
-    <div className="va__possibility section__padding" id="possibility">
+    <div className="va__possibility section__padding" id="team">
       <div className="va__possibility-image">
         <img src={possibilityImage} alt="possibility" />
       </div>
       <div className="va__possibility-content">
-        <h4>Request Early Access to Get Started</h4>
-        <h1 className="gradient__text">The possibilities are <br /> beyond your imagination</h1>
-        <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-        <h4>Request Early Access to Get Started</h4>
+        <h1 className="gradient__text">Meet our Reseachers</h1>
+        <p>We bring the advances in computer vision, machine learning and virtual reality into the real world.</p>
+        <a href="#team">Explore our team composition</a>
       </div>
     </div>
   );

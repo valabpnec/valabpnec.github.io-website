@@ -20,14 +20,14 @@
 
 .va__cta-content p {
     font-family: var(--font-family);
-    font-size: 12px;
+    font-size: 16px;
     line-height: 30px;
     font-weight: 500;
 }
 
-.va__cta-content h3 {
+.va__cta-content h1 {
     font-family: var(--font-family);
-    font-size: 24px;
+    font-size: 34px;
     line-height: 45px;
     font-weight: 800;
 }
@@ -72,7 +72,7 @@
         margin: 4rem 2rem;
     }
 
-    .va__cta-content h3 {
+    .va__cta-content h1 {
         font-size: 18px;
         line-height: 32px;
     }

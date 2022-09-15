@@ -1,4 +1,4 @@
-import blog01 from '../../assets/gpt3/blog01.png';
+import blog01 from '../../assets/valab/article1.png';
 import blog02 from '../../assets/gpt3/blog02.png';
 import blog03 from '../../assets/gpt3/blog03.png';
 import blog04 from '../../assets/gpt3/blog04.png';

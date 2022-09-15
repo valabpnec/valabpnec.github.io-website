@@ -25,7 +25,7 @@
     flex-direction: column;
 }
 
-.va__possibility-content h4 {
+.va__possibility-content a {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -33,7 +33,7 @@
     color: #71E5FF;
 }
 
-.va__possibility-content h4:last-child {
+.va__possibility-content a:last-child {
     color: #ff8A71;
 }
 
