@@ -10,20 +10,20 @@ const Footer = () => {
             </div>
 
             <div className="va__footer-btn">
-            <a href="#">Contact for our State-of-the-Art Services</a>
+            <a onClick={(e) => {window.location.href ='mailto:val@pnec.nust.edu.pk';}} >Contact for our State-of-the-Art Services</a>
             </div>
 
             <div className="va__footer-links">
             <div className="va__footer-links_logo">
                 <img src={valogo} alt="va_logo" />
                 <h4>Video Analytics Lab</h4>
-                <p>@2022 Video Analytics Lab. All rights reserved.</p>
+                <p>@2023 Video Analytics Lab. All rights reserved.</p>
                 
             </div>
             <div className="va__footer-links_div">
                 <h4>Sitemap</h4>
                 <p><a href="#home" >Home</a></p>
-                <p><a href="#whatVALAB" >What is Video Analytics Lab?</a></p>
+                <p><a href="#whatVALAB" >Introduction</a></p>
                 <p><a href="#researchareas" >Research Areas</a></p>
                 <p><a href="#projects" >Projects</a></p>
                 <p><a href="#team" >Team</a></p>
@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
             <div className="va__footer-links_div">
                 <h4>Links</h4>
-                <a href="https://projects.pnec.nust.edu.pk/VA/">VA Lab PNEC</a>
+                <a href="https://projects.pnec.nust.edu.pk/VA/">VA Lab PNEC (Legacy Website)</a>
                 <a href="https://github.com/valabpnec">Github</a>
                 <a href="https://www.linkedin.com/company/video-analytics-lab-ai">LinkedIn</a>
             </div>

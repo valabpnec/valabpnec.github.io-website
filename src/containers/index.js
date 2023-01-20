@@ -4,3 +4,4 @@ export {default as Footer } from './footer/Footer';
 export {default as Header } from './header/Header';
 export {default as Possibility } from './possibility/Possibility';
 export {default as WhatVA } from './whatVA/WhatVA';
+export {default as Forensics } from './forensics/forensics';

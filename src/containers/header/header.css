@@ -103,8 +103,8 @@
 }
 
 .va__header-image img{
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 80%;
 }
 
 @media screen and (max-width: 1050px) {

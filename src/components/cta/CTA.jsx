@@ -6,10 +6,13 @@ const CTA = () => {
       <div className="va__cta" id="publication">
         <div className="va__cta-content">
           <h1>Publications</h1>
-          <p>There is no better measure of VALab's impact than the research conducted here.</p>
+          <p>The studies undertaken at VALab are the most comprehensive measure of its impact.</p>
         </div>
         <div className="va__cta-btn">
-          <button type="button">Explore our research</button>
+          <button type="button">
+          <a href="https://projects.pnec.nust.edu.pk/va/publications.html" target="_blank" >Explore our research</a>
+          
+          </button>
         </div>
       </div>
     )

@@ -1,6 +1,6 @@
 import React from "react";
 import Article from '../../components/article/Article';
-import { blog01, blog02, blog03, blog04, blog05 } from './imports';
+import { blog01, blog02, blog03, blog04, blog05, blogUrls } from './imports';
 import './blog.css';
 
 const Blog = () => {
@@ -11,13 +11,13 @@ const Blog = () => {
             </div>
             <div className="va__blog-container">
             <div className="va__blog-container_groupA">
-                <Article imgUrl={blog01} date="May 06, 2021" text="State of the art research at our flagship Video Analytics Lab" />
+                <Article imgUrl={blog01} blogUrl={blogUrls[0]} date="May 2021" text="State of the art research at our flagship Video Analytics Lab" />
             </div>
             <div className="va__blog-container_groupB">
-                <Article imgUrl={blog02} date="Sep 26, 2022" text="Advanced techniques in object classification (Upcoming)" />
-                <Article imgUrl={blog03} date="Oct 16, 2022" text="Real-time Activity Recognition (Upcoming)" />
-                <Article imgUrl={blog04} date="Nov 08, 2022" text="Cyber security and Artificial Intelligence (Upcoming)" />
-                <Article imgUrl={blog05} date="Dec 30, 2022" text="Marriage of AI and AR-VR for better experience (Upcoming)" />
+                <Article imgUrl={blog02} blogUrl={blogUrls[1]} date="August 2021" text="Advanced techniques in object classification (Upcoming)" />
+                <Article imgUrl={blog05} blogUrl={blogUrls[2]} date="Jan 2022" text="AI and AR-VR for better experience (Upcoming)" />
+                <Article imgUrl={blog03} blogUrl={blogUrls[3]} date="May 2022" text="Real-time Activity Recognition (Upcoming)" />
+                <Article imgUrl={blog04} blogUrl={blogUrls[4]} date="September 2022" text="Cyber security and Artificial Intelligence (Upcoming)" />
             </div>
         </div>
     </div>

@@ -6,9 +6,10 @@ import './navbar.css';
 const Menu = () => (
     <>
         <p><a href="#home" >Home</a></p>
-        <p><a href="#whatVALAB" >What is Video Analytics Lab?</a></p>
+        <p><a href="#whatVALAB" >Introduction</a></p>
         <p><a href="#researchareas" >Research Areas</a></p>
         <p><a href="#projects" >Projects</a></p>
+        <p><a href="#forensics" >Video Forensics</a></p>
         <p><a href="#team" >Team</a></p>
         <p><a href="#publication" >Publication</a></p>
         <p><a href="#blog" >Blog</a></p>

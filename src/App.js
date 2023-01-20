@@ -6,7 +6,8 @@ import{
     Footer,
     Header,
     Possibility,
-    WhatVA
+    WhatVA,
+    Forensics
 } from './containers';
 
 import {
@@ -27,6 +28,7 @@ const App = () => {
             <Brand/>
             <WhatVA/>
             <Features/>
+            <Forensics/>
             <Possibility/>
             <CTA/>
             <Blog/>

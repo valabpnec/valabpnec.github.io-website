@@ -47,6 +47,12 @@
     cursor: pointer;
 }
 
+.va__blog-container_article-content p {
+    font-family: var(--font-family);
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
 .va__blog-container_article-content p:last-child {
     cursor: pointer;
 }

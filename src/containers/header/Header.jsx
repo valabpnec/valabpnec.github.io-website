@@ -1,6 +1,5 @@
 import React from "react";
-import va from "../../assets/valab/ai8.gif";
-// import ai from "../../assets/gpt3/ai.png";
+import va from "../../assets/valab/ai6.gif";
 import './header.css';
 
 const Header = () => {

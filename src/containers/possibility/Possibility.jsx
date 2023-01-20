@@ -10,7 +10,7 @@ const Possibility = () => (
       <div className="va__possibility-content">
         <h1 className="gradient__text">Meet our Reseachers</h1>
         <p>We bring the advances in computer vision, machine learning and virtual reality into the real world.</p>
-        <a href="#team">Explore our team composition</a>
+        <a href="https://projects.pnec.nust.edu.pk/va/researchers.html" target="_blank">Explore our team composition</a>
       </div>
     </div>
   );
