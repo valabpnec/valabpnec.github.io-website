@@ -6,7 +6,7 @@ const CTA = () => {
       <div className="va__cta" id="publication">
         <div className="va__cta-content">
           <h1>Publications</h1>
-          <p>The studies undertaken at VALab are the most comprehensive measure of its impact.</p>
+          <p>Studies undertaken at Video Analytics Lab (VALab) are the most comprehensive measure of its impact</p>
         </div>
         <div className="va__cta-btn">
           <button type="button">

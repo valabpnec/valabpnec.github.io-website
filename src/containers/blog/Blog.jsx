@@ -14,10 +14,10 @@ const Blog = () => {
                 <Article imgUrl={blog01} blogUrl={blogUrls[0]} date="May 2021" text="State of the art research at our flagship Video Analytics Lab" />
             </div>
             <div className="va__blog-container_groupB">
-                <Article imgUrl={blog02} blogUrl={blogUrls[1]} date="August 2021" text="Advanced techniques in object classification (Upcoming)" />
-                <Article imgUrl={blog05} blogUrl={blogUrls[2]} date="Jan 2022" text="AI and AR-VR for better experience (Upcoming)" />
-                <Article imgUrl={blog03} blogUrl={blogUrls[3]} date="May 2022" text="Real-time Activity Recognition (Upcoming)" />
-                <Article imgUrl={blog04} blogUrl={blogUrls[4]} date="September 2022" text="Cyber security and Artificial Intelligence (Upcoming)" />
+                <Article imgUrl={blog02} blogUrl={blogUrls[1]} date="August 2021" text="Advanced techniques in object classification" />
+                <Article imgUrl={blog05} blogUrl={blogUrls[2]} date="Jan 2022" text="AI and AR-VR for better experience" />
+                <Article imgUrl={blog03} blogUrl={blogUrls[3]} date="May 2022" text="Real-time Activity Recognition" />
+                <Article imgUrl={blog04} blogUrl={blogUrls[4]} date="September 2022" text="Cyber security and Artificial Intelligence" />
             </div>
         </div>
     </div>
